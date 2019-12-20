@@ -1,0 +1,1 @@
+(`$id`, `$parent_id`, `$link_id`, `$name`, `$author`, `$body`, `$subreddit_id`, `$subreddit`, `$score`, `$created_utc`)";

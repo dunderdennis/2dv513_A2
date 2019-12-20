@@ -1,0 +1,23 @@
+CREATE TABLE comments (id nvarchar(10) not null,
+parent_id nvarchar(10),
+link_id nvarchar(10),
+name nvarchar(10),
+author nvarchar(200),
+body nvarchar(10001),
+subreddit_id nvarchar(10),
+subreddit nvarchar(100),
+score int,
+created_utc nvarchar(10),
+primary key(id)); 
+
+
+id 
+parent_id
+link_id 
+name
+author
+body
+subreddit_id
+subreddit
+score
+created_utc
